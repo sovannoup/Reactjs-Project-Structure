@@ -1,0 +1,42 @@
+.Public-user-detials-contact {
+  width: 100%;
+  position: fixed;
+}
+.Public-user-detials-body {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 25px;
+}
+.Public-user-detials-home-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.Public-user-detials-back {
+  margin-top: 40px;
+  position: absolute;
+  max-width: 700px;
+  min-width: 300px;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: start;
+    align-items: center; */
+}
+/* 
+@media all and (max-width: 880px) {
+  .Public-user-detials-back {
+    min-width: 420px;
+    width: 80vw;
+    max-width: 600px;
+  }
+}
+
+@media all and (max-width: 555px) {
+  .Public-user-detials-back {
+    margin-top: 31px;
+    min-width: 300px;
+    max-width: 550px;
+  }
+} */

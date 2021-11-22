@@ -1,0 +1,32 @@
+.Back-button-con {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+.Back-button-img {
+  width: 15px;
+  height: 25px;
+}
+.Back-button-text {
+  font-size: 25px;
+  margin: 15px;
+  margin-right: 0;
+}
+@media all and (max-width: 675px) {
+  .Back-button-img {
+    width: 10px;
+    height: 20px;
+  }
+  .Back-button-text {
+    font-size: 18px;
+    margin: 10px;
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 500px) {
+  .Back-button-text {
+    display: none;
+  }
+}

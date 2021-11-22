@@ -1,0 +1,128 @@
+.Home-card-con {
+  min-width: 300px;
+  width: 90vw;
+  display: flex;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  /* padding-top: 20px; */
+  /* padding-bottom: 15%; */
+  /* min-height: 20vh; */
+  /* background-color: red; */
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Home-card-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.Home-h1 {
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+/* .Home-card-text h4 {
+  font-size: 22px;
+  min-width: 160px;
+} */
+.Home-card-img {
+  max-width: 200px;
+  width: 25vw;
+  min-width: 150px;
+  border-width: 0;
+}
+.Home-card-text {
+  font-size: 25px;
+  text-align: justify;
+}
+.Home-card1 {
+  width: 52vw;
+}
+.Home-card2 {
+  min-width: 400px;
+  width: 30vw;
+  margin-left: 50px;
+  /* margin: 40px; */
+}
+.Home-card-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 22px;
+  min-width: 160px;
+  margin: 0;
+}
+.Home-card-link-con {
+  height: 86%;
+  /* padding: 40px 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Home-a-h4-con {
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  /* margin-bottom: 10px; */
+}
+/* ul {
+  vertical-align: middle;
+  list-style-image: url(/src/assets/bullet.png);
+} */
+
+@media all and (max-width: 1250px) {
+  .Home-card-con {
+    /* margin-top: 30vw; */
+    width: 90vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0%;
+  }
+  .Home-card-info.Home-card1 {
+    margin: 20px;
+    width: 100%;
+    min-width: 300px;
+  }
+  .Home-card-info.Home-card2 {
+    margin: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    margin: 10px 0;
+    min-width: 300px;
+  }
+}
+
+@media all and (max-width: 675px) {
+  .Home-card-con {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .Home-card-link-con {
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  .Home-card-text h4 {
+    min-width: 110px;
+    font-size: 13px;
+  }
+  .Home-card-text {
+    font-size: 14px;
+  }
+  .Home-a-h4-con {
+    padding-bottom: 10px;
+  }
+  .Home-card-link {
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,57 @@
+.Logo-lang-con {
+  display: flex;
+  background-color: #ffffff;
+  padding-top: 15px;
+  width: 100%;
+  min-width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.Logo-lang-logo {
+  min-width: 100px;
+  max-width: 200px;
+  width: 20vw;
+  height: auto;
+  margin: 0;
+  margin-left: 50px;
+}
+.Drop-down-button {
+  position: relative;
+  margin-left: 50px;
+}
+.btn-primary {
+  position: absolute;
+  /* margin-left: 1000; */
+  background-color: #c00000;
+  border-width: 0;
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  text-align: start;
+}
+
+.btn-primary:hover,
+.primary.dropdown-toggle,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle,
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  background-color: #c00000;
+  border: #c00000;
+}
+@media all and (max-width: 675px) {
+  .Logo-lang-logo {
+    margin-left: 0px;
+  }
+  .Drop-down-button {
+    display: none;
+  }
+}
+@media all and (max-width: 375px) {
+  .Logo-lang-logo {
+    margin-left: 0px;
+  }
+  .Drop-down-button {
+    display: none;
+  }
+}

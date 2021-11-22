@@ -1,0 +1,151 @@
+.Result {
+  width: 90vw;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Result-home-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.Result-logo {
+  width: 175px;
+  margin: 10px;
+  height: auto;
+}
+.Result-back {
+  margin-top: 32px;
+  position: absolute;
+  max-width: 800px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: start;
+  align-items: center; */
+}
+.Result-all-info-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 30px;
+}
+.Result-info-arrow-con {
+  display: flex;
+  flex-direction: column;
+}
+.Result-info-con {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Result-rectangle {
+  width: 140px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3e619a;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.Result-text {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.Result-text-responsive {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.Result-arrow {
+  width: 20px;
+  height: 60px;
+  margin-left: 65px;
+}
+.Result-btt {
+  width: 400px;
+  min-height: 70px;
+  color: #ffffff;
+  background-color: #0070c0;
+  border-width: 0;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+@media all and (max-width: 880px) {
+  .Result {
+    margin-top: 10px;
+    max-width: 650px;
+  }
+  .Result-logo {
+    width: 140px;
+    margin: 12px;
+    height: auto;
+  }
+  .Result-back {
+    min-width: 420px;
+    width: 80vw;
+    max-width: 600px;
+  }
+  .Result-info-con {
+    margin: 10px;
+    min-height: 85px;
+    min-width: 300px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Result-all-info-con {
+    margin: 0;
+  }
+  .Result-text {
+    min-width: 300px;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  .Result-text-responsive {
+    text-align: center;
+    min-width: 300px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .Result-arrow {
+    display: none;
+  }
+  .Result-btt {
+    width: 250px;
+    height: 50px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+}
+
+@media all and (max-width: 555px) {
+  .Result-info-con {
+    margin: 5px;
+    min-height: none;
+    justify-content: space-evenly;
+  }
+  .Result-back {
+    margin-top: 31px;
+    min-width: 300px;
+    max-width: 550px;
+  }
+}

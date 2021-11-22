@@ -1,0 +1,82 @@
+.Login {
+  width: 90vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Login-logo {
+  width: 180px;
+  height: auto;
+}
+.Login-mb-4 {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Login-form-control {
+  font-size: 24px;
+  text-indent: 10px;
+  color: #7f7f7f;
+  margin: 30px;
+  width: 400px;
+  height: 80px;
+  background-color: #f2f2f2;
+  border-width: 0;
+  border-radius: 10px;
+}
+.Login-form-control::placeholder {
+  color: #7f7f7f;
+  opacity: 1;
+}
+.Login-form {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Login-submit-btt {
+  width: 400px;
+  height: 60px;
+  color: #ffffff;
+  background-color: #0070c0;
+  border-radius: 10px;
+  border-width: 0;
+  margin: 30px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+@media all and (max-width: 450px) {
+  .Login-logo {
+    width: 41vw;
+    min-width: 120px;
+    margin: 12px;
+    height: auto;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .Login-submit-btt {
+    width: 90vw;
+    min-width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .Login-form-control {
+    width: 90vw;
+    min-width: 250px;
+    height: 60px;
+    font-size: 20px;
+  }
+  .Login-mb-4 {
+    width: 300px;
+  }
+}

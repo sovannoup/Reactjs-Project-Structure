@@ -1,0 +1,24 @@
+.cardBox{
+    padding: 30px;
+}
+.image{
+    width: 100px;
+    height: auto;
+}
+.MuiListItemIcon-root .fa {
+    font-size: 20px;
+    margin: auto;
+}
+.expMargin{
+    margin: auto;
+}
+.expBox .MuiInputLabel-root{
+    margin-bottom: 16px;
+}
+.MuiTableBody-root img{
+    max-width: 70px;
+    height: auto;
+}
+.MuiAppBar-colorPrimary{
+    background-color: #7A3D25 !important;
+}

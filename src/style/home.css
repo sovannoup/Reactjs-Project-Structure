@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    color:  aliceblue;
+}
+*{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px;
+}
+.container-fluid, .row{
+    padding: 0px;
+    margin: 0px;
+}
+/* HEADER */
+.company_logo{
+    max-width: 90px;
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 45px;
+}
+.header span{
+    display: table-cell;
+    vertical-align: middle;
+    text-emphasis: left;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    border-color: #499f92;
+}
+.header .col-md-12{
+    display: table;
+}
+/* MENU */
+.menu{
+    padding-bottom: 40px;
+}
+.menu ul{
+    margin: 0px;
+    padding: 20px 20px;
+    padding-left: 0px;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul a{
+    padding: 20px 20px;
+    text-decoration:none;
+    color: #499f92;
+    transition: .3s;
+}
+.menu ul a:hover{
+    color: rgb(177, 177, 177);
+}
+.menu ul a:first-child{
+    padding-left: 0px;
+}
+/* SLIDE */
+.slide{
+    width: 100%;
+    height: auto;
+}
+.slide figure{
+    margin: 0px;
+    overflow: hidden;
+}
+.slideText{
+    position: absolute;
+    top: 35%;
+    font-size: 70px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #499f92;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+/* PRODUCT */
+.product{
+    padding-bottom: 50px;
+}
+.titleProduct{
+    text-align: center;
+    padding: 100px 0px;
+}
+.titleProduct h1{
+    margin-top: 0px;
+}
+.productItem{
+    padding: 0px;
+}
+.productItem img{
+    width: 100%;
+    height: auto;
+}
+.productItem h3{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.productItem p{
+    text-align: justify;
+    padding: 40px;
+}
+/* ABOUT */
+.aboutImage{
+    width: 100%;
+    overflow: hidden;
+}
+.aboutImage img{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.aboutBlock{
+    text-align: center !important;
+    padding: 30px;
+}
+.about_editor{
+    color: #499f92;
+}
+/* CONTACT */
+.contact{
+    padding: 100px 0px;
+}
+.contactForm{
+    padding: 0px 30px;
+}
+.contactForm h1 {
+    margin-top: 30px;
+}
+.contactForm input[type=text]:focus, .contactForm textarea:focus{
+    border-color:  rgba(255, 255, 255, 1);
+
+}
+.contactForm textarea{
+    height: 120px;
+}
+.contactForm input[type=text], .contactForm textarea{
+    width: 100%;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-width: 0 0 1px 0;
+    background-color: rgba(0, 0, 0, 0.01);
+    box-sizing: border-box !important;
+    color: #FFFFFF;
+    border-style: solid;
+    border-color: rgb(141, 141, 141);
+    padding: 3px;
+    margin: 0;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-overflow: ellipsis;
+    outline: none;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.contactForm input[type=checkbox]{
+    margin-right: 5px;
+}
+.contactForm ul li{
+    list-style: none;
+}
+.contactForm ul{
+    margin: 0px;
+    padding: 0px;
+}
+.contactImage{
+    overflow: hidden;
+}
+.contactImage img{
+    height: 100%;
+    width: auto;
+}
+.footer{
+    padding: 30px;
+}
+.footer p{
+    text-align: center;
+}
+.loading{
+    /* height: 100%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media (max-width: 767px) { 
+    .contactForm {
+        padding: 0px 30px;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .imageSlide{
+        width: 100%;
+        height: auto;
+    }
+    .contactImage{
+        display: none;
+    }
+}
+/* .fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    
+  } */

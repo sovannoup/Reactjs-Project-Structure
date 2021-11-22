@@ -1,0 +1,103 @@
+.Staff {
+  width: 90vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  /* background-color: red; */
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Staff-logo {
+  /* margin: 10px 0; */
+  width: 180px;
+  height: auto;
+}
+.Staff-form {
+  margin-top: 30px;
+  /* background-color: red; */
+  height: auto;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Staff-form-input::placeholder {
+  color: #7f7f7f;
+  opacity: 1;
+}
+.Staff-form-input {
+  text-indent: 10px;
+  font-size: 24px;
+  color: #878787;
+  margin: 30px;
+  width: 400px;
+  height: 70px;
+  background-color: #f2f2f2;
+  border-color: #595959;
+  border-radius: 15px;
+  border-width: 2px;
+}
+.Staff-form1-button {
+  width: 100px;
+  height: 70px;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  margin-right: 30px;
+  background-color: #c00000;
+  border-radius: 15px;
+  border: 0;
+}
+.Note-form-control {
+  padding-top: 10px;
+  margin-top: 0;
+  height: 150px;
+}
+.Staff-submit-btt {
+  width: 400px;
+  height: 60px;
+  background-color: #0070c0;
+  border-radius: 10px;
+  border-width: 0;
+  margin: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #ffffff;
+}
+@media all and (max-width: 525px) {
+  .Staff-logo {
+    width: 120px;
+    /* margin: 12px; */
+    height: auto;
+  }
+  .Staff-form-input {
+    text-indent: 10px;
+    font-size: 20px;
+    margin: 30px;
+    width: 300px;
+    height: 50px;
+  }
+  .Note-form-control {
+    margin-top: 0;
+    height: 150px;
+  }
+  .Staff-submit-btt {
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .Staff-form1-button {
+    font-size: 10px;
+    font-weight: 500;
+    width: 60px;
+    height: 50px;
+    margin-right: 20px;
+    text-align: center;
+  }
+}
