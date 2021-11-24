@@ -6,8 +6,6 @@ import {
 	Redirect,
 } from "react-router-dom"
 import { APP_REFRESH } from "./modules/app/reducer"
-
-// import HomeComponent from './containers/HomeContainer';
 import PageNotFoundComponent from "./screens/PageNotFound"
 import Metatages from "./screens/metatages"
 import { store } from "./store"

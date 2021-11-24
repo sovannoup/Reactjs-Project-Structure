@@ -49,7 +49,7 @@ export default class Metatages extends Component {
 		const { company_name, main_page, page } = this.state
 		return (
 			<MetaTags>
-				<title>{main_page + "  |  " + company_name}</title>
+				<title>{company_name + "  |  " + main_page}</title>
 				{/* <link rel="icon" href={require('./../assets/images/company_logo.png')} /> */}
 				{/* <meta property="og:image" content={require('./../assets/images/company_logo.png')} /> */}
 				<meta property="og:locale" content={""} />
